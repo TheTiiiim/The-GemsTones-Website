@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The GemsTones Website
+
+## Resources
+### Links
+
+[Facebook](https://www.facebook.com/GemsTones.Official/)
+
+[Instagram](https://www.instagram.com/gemstones.official/)
+
+[Logo](https://cdn.discordapp.com/attachments/977211900163129394/1021605020065595392/thegemstones_logo_020_FINAL.jpg)
 
 ## Getting Started
 
