@@ -39,13 +39,6 @@ header {
   align-items: center;
 }
 
-.title {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-}
-
 nav {
   display: flex;
   flex: 1;
