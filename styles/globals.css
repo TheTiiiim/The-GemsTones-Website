@@ -20,10 +20,14 @@ a {
 }
 
 .container {
-  padding: 0 max(2rem, 12%);
+  min-width: 50%;
+  width: 100%;
+  max-width: max(125vh);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding: 0 2rem;
+  margin: 0 auto;
 }
 
 header {
@@ -45,7 +49,7 @@ header {
 nav {
   display: flex;
   flex: 1;
-  margin-top: 2rem;
+  margin-top: 1rem;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -58,7 +62,6 @@ nav a {
   flex-grow: 1;
   padding: 1rem 0;
   width: 20%;
-  max-width: 8rem;
 }
 
 nav a:nth-child(1) {
@@ -103,10 +106,4 @@ footer a {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-}
-
-@media (min-width: 1500px) {
-  .container {
-    padding: 0 max(2rem, 25%);
-  }
 }
