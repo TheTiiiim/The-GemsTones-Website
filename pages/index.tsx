@@ -37,7 +37,7 @@ const Home: NextPage = () => {
       <main>
         <div className={styles.featuredContainer}>
           <Iframe 
-            url="https://www.youtube.com/embed/MWvboiDDOMY"
+            url="https://www.youtube.com/embed/_qQzuvfvBdE"
             className={styles.featured}
           />
         </div>
