@@ -22,7 +22,6 @@ a {
 .container {
   min-width: 50%;
   width: 100%;
-  max-width: max(125vh);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -99,4 +98,10 @@ footer a {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 80%;
+  }
 }

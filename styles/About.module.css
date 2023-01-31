@@ -1,0 +1,45 @@
+.split {
+    margin-top: 3rem;
+}
+
+.portraitContainer {
+    position: relative;
+    height: 50vh;
+}   
+
+@media screen and (min-width: 800px) {
+    .split {
+        display: flex;
+        align-items: center;
+    }
+
+    .portraitContainer {
+        flex: 0 0 33%;
+        position: relative;
+        height: 30vw;
+    }
+
+    .split img {
+        object-position: right;
+    }
+
+    /* alternate desctipton/portrait locations */
+
+    .split:nth-child(even) {
+        flex-direction: row-reverse; 
+    }
+
+    .split:nth-child(even) .description {
+        text-align: right;
+    }
+
+    .split:nth-child(even) img {
+        object-position: left;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .split {
+        gap: 10rem;
+    }
+}
