@@ -93,6 +93,10 @@ footer {
   align-items: center;
 }
 
+footer > * {
+  padding: 1rem 1rem;
+}
+
 footer a {
   display: flex;
   justify-content: center;

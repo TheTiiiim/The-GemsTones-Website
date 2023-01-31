@@ -39,7 +39,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   </main>
 
   <footer>
-    <p>demo text</p>
+    <p>+1 (413) 218-2466</p>
+    <p>thegemstones50s@gmail.com</p>
   </footer>
   </div>
 }
