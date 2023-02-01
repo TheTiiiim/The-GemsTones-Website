@@ -15,16 +15,16 @@ const About: NextPage = () => {
       <div className={styles.memberList}>
         <div className={styles.split}>
           <div className={styles.description}>
-            <h2>Electric Emerald</h2>
-            <p>Drums & Backing Vocals; Electric Emerald aka Mark Scott is a longtime gospel drummer and multi-instrumentalist with a specialty in sizzling high harmonies. And while he may not be related to the other GemsTones members, he is our drummer from another mother. With inspiration from Crosby Stills & Nash, Earth Wind & Fire, and Paul Simon; he is here to drop the beat and keep you on your feet!</p>
+            <h2>Rockin&apos; Ruby</h2>
+            <p>Lead singer and lead guitarist; Rockin&apos; Ruby aka josef Nocera has performed for thousands of audiences across New England over the course of his 15-year career as a solo performer and songwriter. He&apos;s also the older brother of fellow GemsTones member Hunter and Jett. Josef&apos;s influences include Frank Sinatra, Buddy Holly, Elvis Presley and AC/DC. Being a pert of the GemsTones is his life-long dream, and he&apos;s beyond excited to collaborate with these musicians to bring new life to the songs of the 1950s and invigorate audiences who also love nostalgic music!</p>
           </div>
           <div className={styles.portraitContainer}>
-            <Image 
+            <Image
               layout="fill"
               objectFit="contain"
-              src={electric_emerald}
-              alt="Electric Emerald Portrait"
-            />  
+              src={rockin_ruby}
+              alt="Rockin Ruby Portrait"
+            />
           </div>
         </div>
         <div className={styles.split}>
@@ -38,21 +38,21 @@ const About: NextPage = () => {
               objectFit="contain"
               src={swingin_sapphire}
               alt="Swingin Sapphire Portrait"        
-            />      
-          </div>  
+            />
+          </div>
         </div>
         <div className={styles.split}>
           <div className={styles.description}>
-            <h2>Rockin&apos; Ruby</h2>
-            <p>Lead singer and lead guitarist; Rockin&apos; Ruby aka josef Nocera has performed for thousands of audiences across New England over the course of his 15-year career as a solo performer and songwriter. He&apos;s also the older brother of fellow GemsTones member Hunter and Jett. Josef&apos;s influences include Frank Sinatra, Buddy Holly, Elvis Presley and AC/DC. Being a pert of the GemsTones is his life-long dream, and he&apos;s beyond excited to collaborate with these musicians to bring new life to the songs of the 1950s and invigorate audiences who also love nostalgic music!</p>
+            <h2>Electric Emerald</h2>
+            <p>Drums & Backing Vocals; Electric Emerald aka Mark Scott is a longtime gospel drummer and multi-instrumentalist with a specialty in sizzling high harmonies. And while he may not be related to the other GemsTones members, he is our drummer from another mother. With inspiration from Crosby Stills & Nash, Earth Wind & Fire, and Paul Simon; he is here to drop the beat and keep you on your feet!</p>
           </div>
           <div className={styles.portraitContainer}>
             <Image 
               layout="fill"
               objectFit="contain"
-              src={rockin_ruby}
-              alt="Rockin Ruby Portrait"        
-            />   
+              src={electric_emerald}
+              alt="Electric Emerald Portrait"
+            />  
           </div>
         </div>
         <div className={styles.split}>
