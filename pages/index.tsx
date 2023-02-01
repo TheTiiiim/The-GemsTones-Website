@@ -8,11 +8,13 @@ import logo from '../public/logo.jpg'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.featuredContainer}>
-      <Iframe 
-        url="https://www.youtube.com/embed/FYSj5IUTe54"
-        className={styles.featured}
-      />
+    <div className={styles.featuredContainer1}>
+      <div className={styles.featuredContainer2}>
+        <Iframe 
+          url="https://www.youtube.com/embed/FYSj5IUTe54"
+          className={styles.featured}
+        />
+      </div>
     </div>
   )
 }
