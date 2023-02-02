@@ -19,7 +19,7 @@
     padding-top: 56.25%;
 }
 
-.center {
+.centerFlex {
     flex: 1;
     height: 100%;
     display: flex;
@@ -28,6 +28,6 @@
     justify-content: space-around;
 }
 
-.center > * {
+.centerFlex > * {
     flex: 0;
 }
