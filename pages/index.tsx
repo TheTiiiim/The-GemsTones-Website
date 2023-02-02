@@ -8,7 +8,7 @@ import banner from '../public/banner.jpg'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.center}>
+    <div className={styles.centerFlex}>
       <Image 
         src={banner}
         alt="The GemsTones Banner"
