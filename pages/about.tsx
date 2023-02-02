@@ -11,7 +11,8 @@ import swingin_sapphire from '../public/swingin-sapphire.jpg'
 const About: NextPage = () => {
   return (
     <div>
-      <p>The GemsTones is a retro-rock band with a love for all things nostalgia. Bringing the biggest hits.</p>
+      <h1>Meet the Gang!</h1>
+      <p id={styles.tagline}>The GemsTones is a retro-rock band with a love for all things nostalgia. Bringing the biggest hits.</p>
       <div className={styles.memberList}>
         <div className={styles.split}>
           <div className={styles.description}>
