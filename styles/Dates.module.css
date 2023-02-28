@@ -13,31 +13,57 @@
 .dateList li {
     border-top: 1px solid white;
     padding: .5rem .25rem;
+    display: grid;
+    grid-template-areas: 
+    'dateTime venue cityState'
+    'directionsButton tickets address';
+    grid-auto-columns: 33.33%;
 }
 
 .dateList li:last-child {
     border-bottom: 1px solid white;
 }
 
-.dateList h2 {
-    margin: 0;
+.dateTime {
+    grid-area: dateTime;
+    text-align: left;
+    font-size: 1rem;
 }
 
-.dateList p {
-    margin: 0;
+.dateTime * {
+    display: inline;
 }
 
-.horizontal {
-    margin-top: .25rem;
-    display: flex;
+.venue {
+    grid-area: venue;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
-.horizontal > * {
-    flex: 1 0 auto;
-}
-
-.horizontal *:last-child {
+.cityState {
+    grid-area: cityState;
     text-align: right;
+    font-size: 1.5rem;
+}
+
+.directionsButton {
+    grid-area: directionsButton;
+    text-align: left;
+}
+
+.tickets {
+    grid-area: tickets;
+    text-align: center;
+}
+
+.address {
+    grid-area: address;
+    text-align: right;
+}
+
+.dateList li * {
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and (min-width: 800px) {
