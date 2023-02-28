@@ -5,7 +5,7 @@ import styles from '../styles/Dates.module.css'
 const Dates: NextPage = () => {
   return (
     <div className={styles.datesContainer}>
-      <h1>Dates</h1>
+      <h1>Upcoming Events</h1>
       <ul className={styles.dateList}>
         <li>
           <h2>June 3, 2023</h2>
