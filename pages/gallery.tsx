@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 import styles from '../styles/Gallery.module.css'
 import Image from 'next/image'
 
-const About: NextPage = () => {
+const Gallery: NextPage = () => {
   return (
     <div>
       <h1>Songs</h1>
@@ -12,4 +12,4 @@ const About: NextPage = () => {
   )
 }
 
-export default About
+export default Gallery
