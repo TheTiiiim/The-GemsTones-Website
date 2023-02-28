@@ -11,8 +11,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #0e9cde;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 * {
@@ -57,6 +61,7 @@ nav a {
   flex-grow: 1;
   padding: 1rem 0;
   width: 20%;
+  color: white;
 }
 
 nav a:nth-child(1) {
