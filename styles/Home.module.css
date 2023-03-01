@@ -18,3 +18,16 @@
     width: 100%;
     padding-top: 56.25%;
 }
+
+.centerFlex {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.centerFlex > * {
+    flex: 0;
+}

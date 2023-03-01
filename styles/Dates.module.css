@@ -1,0 +1,122 @@
+.datesContainer {
+    width: 100%;
+}
+
+.dateList li {
+    border-top: 1px solid white;
+    padding: .5rem .25rem;
+    display: grid;
+    grid-template-areas: 
+    'dateTime dateTime'
+    'venue cityState'
+    'tickets address'
+    'directionsButton directionsButton';
+    grid-auto-columns: 50%;
+}
+
+.dateTime {
+    grid-area: dateTime;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.dateTime h2 {
+    display: inline;
+}
+
+.time {
+    text-align: right;
+}
+
+.venue {
+    grid-area: venue;
+    text-align: left;
+}
+
+.cityState {
+    grid-area: cityState;
+    text-align: right;
+}
+
+.directionsButton {
+    grid-area: directionsButton;
+    text-align: center;
+}
+
+.tickets {
+    grid-area: tickets;
+    text-align: left;
+}
+
+.address {
+    grid-area: address;
+    text-align: right;
+}
+    
+.dateList li:last-child {
+    border-bottom: 1px solid white;
+}
+
+.dateList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+    
+.dateList li * {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 1060px) {
+    .dateList li {
+        padding: .5rem .5rem;
+        display: grid;
+        grid-template-areas: 
+        'dateTime venue cityState'
+        'directionsButton tickets address';
+        grid-auto-columns: 33.33%;
+    }
+    
+    .dateTime {
+        display: block;
+        grid-area: dateTime;
+        text-align: left;
+        font-size: 1rem;
+    }
+    
+    .dateTime * {
+        display: inline;
+    }
+    
+    .venue {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .cityState {
+        text-align: right;
+        font-size: 1.5rem;
+    }
+    
+    .directionsButton {
+        text-align: left;
+    }
+    
+    .tickets {
+        text-align: center;
+    }
+    
+    .address {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .dateList li {
+        padding: .5rem 1rem;
+    }
+}

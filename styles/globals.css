@@ -11,8 +11,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #0e9cde;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 * {
@@ -22,18 +26,21 @@ a {
 .container {
   min-width: 50%;
   width: 100%;
+}
+
+.topContainer {
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 0 2rem;
-  margin: 0 auto;
 }
 
 header {
   display: flex;
   flex-direction: column;
   flex: 0;
-  padding: 2rem 0;
+  padding: 2rem;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
@@ -54,6 +61,7 @@ nav a {
   flex-grow: 1;
   padding: 1rem 0;
   width: 20%;
+  color: white;
 }
 
 nav a:nth-child(1) {
@@ -77,24 +85,34 @@ nav a:nth-child(5) {
 }
 
 main {
-  margin-bottom: max(2rem, auto);;
+  padding: 0 2rem;
+  margin: 0 auto max(2rem, auto) auto;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+h1 {
+  text-align: center;
+}
+
 footer {
-  margin-top: 1rem;
-  display: flex;
+  background-color: #edd7b0;
+  color: black;
+  padding: .5rem 2rem 1rem 2rem;
+  margin: 3rem auto 0 auto;
   flex: 0;
-  border-top: 1px solid #eaeaea;
+  /* border-top: 1px solid #eaeaea; */
   justify-content: center;
   align-items: center;
 }
 
 footer > * {
-  padding: 1rem 1rem;
+  padding: .5rem 0;
+  margin: 0;
+  text-align: center;
+  
 }
 
 footer a {
@@ -104,8 +122,20 @@ footer a {
   flex-grow: 1;
 }
 
+@media screen and (min-width: 800px) {
+  footer {
+    display: flex;
+    padding: .5rem 2rem .5rem 2rem;
+  }
+  
+  footer > * {
+    padding: 1rem 1rem;
+  }
+}
+
 @media screen and (min-width: 1500px) {
   .container {
-    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
