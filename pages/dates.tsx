@@ -32,7 +32,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Dover, NH</p>
           <p className={styles.address}>282 Durham Rd</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/PGRFD84NJV7aHxH59" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/BcBUASvHGX7iaZ3N8" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -50,7 +50,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $15</p>
           <p className={styles.cityState}>Manchester, NH</p>
           <p className={styles.address}>290 Granite St</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/T9vRQadWwmy59hND9" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/5QPx9PPgQpgP69s18" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -59,7 +59,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Nashua, NH</p>
           <p className={styles.address}>12 Murphy Dr</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/mtbGytBoXrKdC6Kv5" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/vRPCwRgyydqkY8C39" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -68,7 +68,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Tewksbury, MA</p>
           <p className={styles.address}>777 South St</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/ikVQkWFDnSL3gTiXA" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/AkiqkiosQSxAdyoD7" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -77,7 +77,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Wakefield, MA</p>
           <p className={styles.address}>63 Bay State Rd</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/XPuhQVzTgoA8pVq78" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/ot6BEGqPQ9RfHrDd9" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -86,7 +86,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Keene, NH</p>
           <p className={styles.address}>81 Roxbury St</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/JnBrRaxRzVJ289816" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/XSPRBgwNskHW1vNw9" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -95,7 +95,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $15</p>
           <p className={styles.cityState}>Manchester, NH</p>
           <p className={styles.address}>290 Granite St</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/YE2PsD2SHVdA7bRF7" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/5QPx9PPgQpgP69s18" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -104,7 +104,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Nashua, NH</p>
           <p className={styles.address}>12 Murphy Dr</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/rMLCDiSkEgtA4psZ9" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/vRPCwRgyydqkY8C39" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -113,7 +113,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Dover, NH</p>
           <p className={styles.address}>282 Durham Rd</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/jPHXtdDbokDhdoC87" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/BcBUASvHGX7iaZ3N8" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -122,7 +122,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Wakefield, MA</p>
           <p className={styles.address}>63 Bay State Rd</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/msUMxdheKguYvHxf8" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/ot6BEGqPQ9RfHrDd9" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -131,7 +131,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Tewksbury, MA</p>
           <p className={styles.address}>777 South St</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/U3aieiN5SrLTAY9L7" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/AkiqkiosQSxAdyoD7" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -140,7 +140,7 @@ const Dates: NextPage = () => {
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Newburyport, MA</p>
           <p className={styles.address}>25 Low St</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/mh374BAkQFWR2Ddq9" rel="noreferrer">Directions</a></div>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/GNckDZ5MLR3Ph5U77" rel="noreferrer">Directions</a></div>
         </li>
         
       </ul>
