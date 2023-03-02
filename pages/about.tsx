@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 
 import styles from '../styles/About.module.css'
 import Image from 'next/image'
+import Head from 'next/head'
 
 import angsty_amethyst from '../public/angsty-amethyst.jpg'
 import electric_emerald from '../public/electric-emerald.jpg'
@@ -11,6 +12,10 @@ import swingin_sapphire from '../public/swingin-sapphire.jpg'
 const About: NextPage = () => {
   return (
     <div>
+      <Head>
+        <title>The GemsTones Retro Band - About</title>
+      </Head>
+
       <h1>Meet the Gang!</h1>
       <p id={styles.tagline}>The GemsTones is a retro-rock band with a love for all things nostalgia. Bringing back the biggest hits of the 50&apos;s.</p>
       <div className={styles.memberList}>
