@@ -1,18 +1,25 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Iframe from 'react-iframe'
+
+import styles from '../styles/Home.module.css'
 import banner from '../public/banner.jpg'
 
 
 const Home: NextPage = () => {
   return (
     <div className={styles.centerFlex}>
-      <Image 
-        src={banner}
-        alt="The GemsTones Banner"
-      />
+      <Head>
+        <title>The GemsTones Retro Band - Home</title>
+      </Head>
+
+      <h1>
+        <Image 
+          src={banner}
+          alt="The GemsTones Retro Band"
+        />
+      </h1>
       <div className={styles.featuredContainer1}>
         <div className={styles.featuredContainer2}>
           <Iframe 

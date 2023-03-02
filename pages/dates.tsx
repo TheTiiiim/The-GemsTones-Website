@@ -1,10 +1,16 @@
 import type { NextPage } from 'next'
 
+import Head from 'next/head'
+
 import styles from '../styles/Dates.module.css'
 
 const Dates: NextPage = () => {
   return (
     <div className={styles.datesContainer}>
+      <Head>
+        <title>The GemsTones Retro Band - Dates</title>
+      </Head>
+
       <h1>Upcoming Events</h1>
       <ul className={styles.dateList}>
         
