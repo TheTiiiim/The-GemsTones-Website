@@ -12,12 +12,12 @@ const About: NextPage = () => {
   return (
     <div>
       <h1>Meet the Gang!</h1>
-      <p id={styles.tagline}>The GemsTones is a retro-rock band with a love for all things nostalgia. Bringing the biggest hits.</p>
+      <p id={styles.tagline}>The GemsTones is a retro-rock band with a love for all things nostalgia. Bringing back the biggest hits of the 50&apos;s.</p>
       <div className={styles.memberList}>
         <div className={styles.split}>
           <div className={styles.description}>
             <h2>Rockin&apos; Ruby</h2>
-            <p>Lead singer and lead guitarist; Rockin&apos; Ruby aka josef Nocera has performed for thousands of audiences across New England over the course of his 15-year career as a solo performer and songwriter. He&apos;s also the older brother of fellow GemsTones member Hunter and Jett. Josef&apos;s influences include Frank Sinatra, Buddy Holly, Elvis Presley and AC/DC. Being a pert of the GemsTones is his life-long dream, and he&apos;s beyond excited to collaborate with these musicians to bring new life to the songs of the 1950s and invigorate audiences who also love nostalgic music!</p>
+            <p>Lead singer and lead guitarist; Rockin&apos; Ruby aka Josef Nocera has performed for thousands of audiences across New England over the course of his 15-year career as a solo performer and songwriter. He&apos;s also the older brother of fellow GemsTones member Hunter and Jett. Josef&apos;s influences include Frank Sinatra, Buddy Holly, Elvis Presley and AC/DC. Being a pert of the GemsTones is his life-long dream, and he&apos;s beyond excited to collaborate with these musicians to bring new life to the songs of the 1950s and invigorate audiences who also love nostalgic music!</p>
           </div>
           <div className={styles.portraitContainer}>
             <Image
@@ -59,7 +59,7 @@ const About: NextPage = () => {
         <div className={styles.split}>
           <div className={styles.description}>
             <h2>Angsty Amethyst</h2>
-            <p>Bassist and Graphic artist; Angsty Amethyst has been playing guitar and writing music for over 10 years. He has even self produced two solo albums. He&apos;s alsot the middle brither of fellow GemsTones members Josef and jett. Hunter&apos;s influences included Johnny Cash, John Lennon, Shaun Morgan and Bob Seger. Hunter has always had a thing for the angst aesthetic, but don&apos;t let that tough exterior fool you. There is a warm heart under all that cool leather.</p>
+            <p>Bassist and Graphic artist; Angsty Amethyst has been playing guitar and writing music for over 10 years. He has even self produced two solo albums. He&apos;s alsot the middle brother of fellow GemsTones members Josef and jett. Hunter&apos;s influences included Johnny Cash, John Lennon, Shaun Morgan and Bob Seger. Hunter has always had a thing for the angst aesthetic, but don&apos;t let that tough exterior fool you. There is a warm heart under all that cool leather.</p>
           </div>
           <div className={styles.portraitContainer}>
             <Image 
