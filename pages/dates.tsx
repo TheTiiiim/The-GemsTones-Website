@@ -8,14 +8,14 @@ const Dates: NextPage = () => {
   return (
     <div className={styles.datesContainer}>
       <Head>
-        <title>The GemsTones Retro Band - Dates</title>
+        <title>The GemsTones 50&apos;s Classics - Dates</title>
       </Head>
 
       <h1>Upcoming Events</h1>
       <ul className={styles.dateList}>
         
         <li>
-          <div className={styles.dateTime}><h2>June 3, 2023</h2>&#32;<span className={styles.time}>(4:00pm - 7:30pm)</span></div>
+          <div className={styles.dateTime}><h2>June 3, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 9:00pm)</span></div>
           <p className={styles.venue}>Mill 77 Brewing</p>
           <p className={styles.tickets}>Free entry</p>
           <p className={styles.cityState}>Amesbury, MA</p>
@@ -43,7 +43,7 @@ const Dates: NextPage = () => {
         
         <li>
           <div className={styles.dateTime}><h2>July 15, 2023</h2>&#32;<span className={styles.time}>(7:00pm - 9:00pm)</span></div>
-          <p className={styles.venue}>Rockinghm Ballroom</p>
+          <p className={styles.venue}>Rockingham Ballroom</p>
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Newmarket, NH</p>
           <p className={styles.address}>22 Ash Swamp Rd</p>
