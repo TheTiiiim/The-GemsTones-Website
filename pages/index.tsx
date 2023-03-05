@@ -11,13 +11,13 @@ const Home: NextPage = () => {
   return (
     <div className={styles.centerFlex}>
       <Head>
-        <title>The GemsTones Retro Band - Home</title>
+        <title>The GemsTones 50&apos;s Classics - Home</title>
       </Head>
 
       <h1>
         <Image 
           src={banner}
-          alt="The GemsTones Retro Band"
+          alt="The GemsTones 50&apos;s Classics"
         />
       </h1>
       <div className={styles.featuredContainer1}>
