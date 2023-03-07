@@ -8,7 +8,7 @@ const Dates: NextPage = () => {
   return (
     <div className={styles.datesContainer}>
       <Head>
-        <title>The GemsTones 50&apos;s Classics - Dates</title>
+        <title>Dates - The GemsTones 50&apos;s Classics</title>
       </Head>
 
       <h1>Upcoming Events</h1>
@@ -78,6 +78,15 @@ const Dates: NextPage = () => {
         </li>
         
         <li>
+          <div className={styles.dateTime}><h2>September 2, 2023</h2>&#32;<span className={styles.time}>(Time TBD)</span></div>
+          <p className={styles.venue}>Sea Shell Stage</p>
+          <p className={styles.tickets}>Free entry</p>
+          <p className={styles.cityState}>Hampton, NH</p>
+          <p className={styles.address}>180 Ocean Blvd</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/yrrgyK6EJQ1YY2Tc8" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
           <div className={styles.dateTime}><h2>September 16, 2023</h2>&#32;<span className={styles.time}>(7:00pm - 10:00pm)</span></div>
           <p className={styles.venue}>Elk&apos;s Lodge</p>
           <p className={styles.tickets}>Tickets at the door - $20</p>
@@ -93,6 +102,24 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Keene, NH</p>
           <p className={styles.address}>81 Roxbury St</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/XSPRBgwNskHW1vNw9" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
+          <div className={styles.dateTime}><h2>October 7, 2023</h2>&#32;<span className={styles.time}>(12:00pm - 3:00pm)</span></div>
+          <p className={styles.venue}>Cider Hill Farm</p>
+          <p className={styles.tickets}>Free entry</p>
+          <p className={styles.cityState}>Amesbury, MA</p>
+          <p className={styles.address}>45 Fern Avenue</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/LAvuPynnUKGDUjWB9" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
+          <div className={styles.dateTime}><h2>October 9, 2023</h2>&#32;<span className={styles.time}>(12:00pm - 3:00pm)</span></div>
+          <p className={styles.venue}>Cider Hill Farm</p>
+          <p className={styles.tickets}>Free entry</p>
+          <p className={styles.cityState}>Amesbury, MA</p>
+          <p className={styles.address}>45 Fern Avenue</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/LAvuPynnUKGDUjWB9" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>

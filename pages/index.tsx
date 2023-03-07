@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.centerFlex}>
       <Head>
-        <title>The GemsTones 50&apos;s Classics - Home</title>
+        <title>Home - The GemsTones 50&apos;s Classics</title>
       </Head>
 
       <h1>

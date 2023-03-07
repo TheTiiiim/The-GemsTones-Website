@@ -10,7 +10,7 @@ const Gallery: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>The GemsTones 50&apos;s Classics - Gallery</title>
+        <title>Gallery - The GemsTones 50&apos;s Classics</title>
       </Head>
 
       <h1>Songs</h1>
