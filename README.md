@@ -8,6 +8,8 @@ https://thegemstonesofficial.com/
 
 [Instagram profile](https://www.instagram.com/gemstones.official/)
 
+[Tiktok profile](https://www.tiktok.com/@gemstones.official)
+
 ## Get Started
 
 `git pull` the repository
