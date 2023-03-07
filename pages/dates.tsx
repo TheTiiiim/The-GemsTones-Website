@@ -8,7 +8,7 @@ const Dates: NextPage = () => {
   return (
     <div className={styles.datesContainer}>
       <Head>
-        <title>The GemsTones 50&apos;s Classics - Dates</title>
+        <title>Dates - The GemsTones 50&apos;s Classics</title>
       </Head>
 
       <h1>Upcoming Events</h1>

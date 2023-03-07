@@ -13,7 +13,7 @@ const About: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>The GemsTones 50&apos;s Classics - About</title>
+        <title>About - The GemsTones 50&apos;s Classics</title>
       </Head>
 
       <h1>Meet the Gang!</h1>
