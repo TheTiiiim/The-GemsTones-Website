@@ -78,7 +78,7 @@ const Dates: NextPage = () => {
         </li>
         
         <li>
-          <div className={styles.dateTime}><h2>September 2, 2023</h2>&#32;<span className={styles.time}>(Time TBD)</span></div>
+          <div className={styles.dateTime}><h2>September 4, 2023</h2>&#32;<span className={styles.time}>(7:00pm - 9:30pm)</span></div>
           <p className={styles.venue}>Sea Shell Stage</p>
           <p className={styles.tickets}>Free entry</p>
           <p className={styles.cityState}>Hampton, NH</p>
