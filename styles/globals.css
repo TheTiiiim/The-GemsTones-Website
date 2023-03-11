@@ -103,7 +103,6 @@ footer {
   padding: .5rem 2rem 1rem 2rem;
   margin: 3rem auto 0 auto;
   flex: 0;
-  /* border-top: 1px solid #eaeaea; */
   justify-content: center;
   align-items: center;
 }
@@ -115,21 +114,24 @@ footer > * {
   
 }
 
-footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
 @media screen and (min-width: 800px) {
   footer {
     display: flex;
-    padding: .5rem 2rem .5rem 2rem;
+    flex-direction: column;
+    padding: 1rem 2rem 1rem 2rem;
   }
   
   footer > * {
-    padding: 1rem 1rem;
+    display: flex;
+  }
+  
+  footer p {
+    padding: 0 .5rem;
+    margin: 0;
+  }
+  
+  footer a {
+    margin: 0 .25rem;
   }
 }
 
