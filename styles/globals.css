@@ -100,36 +100,41 @@ h1 {
 footer {
   background-color: #edd7b0;
   color: black;
-  padding: .5rem 2rem 1rem 2rem;
+  padding: 2rem;
   margin: 3rem auto 0 auto;
   flex: 0;
-  /* border-top: 1px solid #eaeaea; */
   justify-content: center;
   align-items: center;
 }
 
 footer > * {
-  padding: .5rem 0;
-  margin: 0;
+  padding: .1rem 0;
   text-align: center;
+}
   
+footer p {
+  padding: 0 .5rem;
+  margin: .5rem;
 }
 
 footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  margin: 0 .25rem;
 }
 
 @media screen and (min-width: 800px) {
   footer {
     display: flex;
-    padding: .5rem 2rem .5rem 2rem;
+    flex-direction: column;
+    padding: 1rem 2rem 1rem 2rem;
   }
   
   footer > * {
-    padding: 1rem 1rem;
+    padding: .5rem 0;
+    display: flex;
+  }
+  
+  footer p {
+    margin: 0;
   }
 }
 

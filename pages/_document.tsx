@@ -7,6 +7,7 @@ export default function Document() {
         <link rel="stylesheet" href="https://use.typekit.net/syq1pzk.css" />
       </Head>
       <body>
+        <Main />
         <NextScript />
       </body>
     </Html>
