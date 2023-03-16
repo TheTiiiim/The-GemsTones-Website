@@ -42,7 +42,7 @@ const Dates: NextPage = () => {
         </li>
         
         <li>
-          <div className={styles.dateTime}><h2>July 15, 2023</h2>&#32;<span className={styles.time}>(7:00pm - 9:00pm)</span></div>
+          <div className={styles.dateTime}><h2>July 15, 2023</h2>&#32;<span className={styles.time}>(7:00pm - 10:00pm)</span></div>
           <p className={styles.venue}>Rockingham Ballroom</p>
           <p className={styles.tickets}>Tickets at the door - $20</p>
           <p className={styles.cityState}>Newmarket, NH</p>
@@ -75,6 +75,15 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Tewksbury, MA</p>
           <p className={styles.address}>777 South St</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/AkiqkiosQSxAdyoD7" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
+          <div className={styles.dateTime}><h2>August 17, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 8:00pm)</span></div>
+          <p className={styles.venue}>Millyard Amphitheater</p>
+          <p className={styles.tickets}>Free entry</p>
+          <p className={styles.cityState}>Amesbury, MA</p>
+          <p className={styles.address}>8 Millyard</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/YuQA4fTUSS16MkhU6" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
