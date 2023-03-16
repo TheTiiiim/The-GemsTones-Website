@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Link href="/"><a href="">Home</a></Link>
         <Link href="/about"><a href="">About</a></Link>
         <Link href="/gallery"><a href="">Gallery</a></Link>
-        <Link href="/dates"><a href="">Dates</a></Link>
+        <Link href="/dates"><a href="">Events</a></Link>
       </nav>
     </header>
 
