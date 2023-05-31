@@ -24,6 +24,15 @@ const Dates: NextPage = () => {
         </li>
         
         <li>
+          <div className={styles.dateTime}><h2>June 17, 2023</h2>&#32;<span className={styles.time}>(2:00pm - 5:00pm)</span></div>
+          <p className={styles.venue}>The Farm at Eastman&apos;s Corner</p>
+          <p className={styles.tickets}>Free entry</p>
+          <p className={styles.cityState}>Kensington, NH</p>
+          <p className={styles.address}>267 South Rd</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/Zj8forMucSkAHgoM6" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
           <div className={styles.dateTime}><h2>June 24, 2023</h2>&#32;<span className={styles.time}>(3:00pm - 6:00pm)</span></div>
           <p className={styles.venue}>Elk&apos;s Lodge</p>
           <p className={styles.tickets}>Tickets at the door - $20</p>
@@ -93,6 +102,15 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Hampton, NH</p>
           <p className={styles.address}>180 Ocean Blvd</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/yrrgyK6EJQ1YY2Tc8" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
+          <div className={styles.dateTime}><h2>September 10, 2023</h2>&#32;<span className={styles.time}>(2:30pm - 3:30pm)</span></div>
+          <p className={styles.venue}>Windham Terrace</p>
+          <p className={styles.tickets}>Free entry</p>
+          <p className={styles.cityState}>Windham, NH</p>
+          <p className={styles.address}>3 Church Rd</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/HezY3cXWT2qCkL21A" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
