@@ -23,4 +23,4 @@ https://thegemstonesofficial.com/
 
 Run `npm i` to set up the development environment
 
-Run `npm start dev` to start the development server
+Run `npm run dev` to start the development server
