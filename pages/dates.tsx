@@ -14,14 +14,14 @@ const Dates: NextPage = () => {
       <h1>Upcoming Events</h1>
       <ul className={styles.dateList}>
         
-        <li>
+        {/* <li>
           <div className={styles.dateTime}><h2>June 3, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 9:00pm)</span></div>
           <p className={styles.venue}>Mill 77 Brewing</p>
           <p className={styles.tickets}>Free entry</p>
           <p className={styles.cityState}>Amesbury, MA</p>
           <p className={styles.address}>77 Elm St</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/HJVhzN2AftwmzAkv9" rel="noreferrer">Directions</a></div>
-        </li>
+        </li> */}
         
         <li>
           <div className={styles.dateTime}><h2>June 17, 2023</h2>&#32;<span className={styles.time}>(2:00pm - 5:00pm)</span></div>
@@ -48,15 +48,6 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Dover, NH</p>
           <p className={styles.address}>282 Durham Rd</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/BcBUASvHGX7iaZ3N8" rel="noreferrer">Directions</a></div>
-        </li>
-        
-        <li>
-          <div className={styles.dateTime}><h2>July 15, 2023</h2>&#32;<span className={styles.time}>(7:00pm - 10:00pm)</span></div>
-          <p className={styles.venue}>Rockingham Ballroom</p>
-          <p className={styles.tickets}>Tickets at the door - $20</p>
-          <p className={styles.cityState}>Newmarket, NH</p>
-          <p className={styles.address}>22 Ash Swamp Rd</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/dPcT86cF1YoGDJgn8" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
@@ -96,6 +87,15 @@ const Dates: NextPage = () => {
         </li>
         
         <li>
+          <div className={styles.dateTime}><h2>August 26, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 9:00pm)</span></div>
+          <p className={styles.venue}>Mill 77 Brewing</p>
+          <p className={styles.tickets}>Free entry</p>
+          <p className={styles.cityState}>Amesbury, MA</p>
+          <p className={styles.address}>77 Elm St</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/HJVhzN2AftwmzAkv9" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
           <div className={styles.dateTime}><h2>September 4, 2023</h2>&#32;<span className={styles.time}>(7:00pm - 9:30pm)</span></div>
           <p className={styles.venue}>Sea Shell Stage</p>
           <p className={styles.tickets}>Free entry</p>
@@ -114,15 +114,6 @@ const Dates: NextPage = () => {
         </li>
         
         <li>
-          <div className={styles.dateTime}><h2>September 30, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 9:00pm)</span></div>
-          <p className={styles.venue}>Elk&apos;s Lodge</p>
-          <p className={styles.tickets}>Tickets at the door - $20</p>
-          <p className={styles.cityState}>Keene, NH</p>
-          <p className={styles.address}>81 Roxbury St</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/XSPRBgwNskHW1vNw9" rel="noreferrer">Directions</a></div>
-        </li>
-        
-        <li>
           <div className={styles.dateTime}><h2>October 7, 2023</h2>&#32;<span className={styles.time}>(12:00pm - 3:00pm)</span></div>
           <p className={styles.venue}>Cider Hill Farm</p>
           <p className={styles.tickets}>Free entry</p>
@@ -138,6 +129,15 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Amesbury, MA</p>
           <p className={styles.address}>45 Fern Avenue</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/LAvuPynnUKGDUjWB9" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
+          <div className={styles.dateTime}><h2>October 14, 2023</h2>&#32;<span className={styles.time}>(7:00pm - 10:00pm)</span></div>
+          <p className={styles.venue}>Elk&apos;s Lodge</p>
+          <p className={styles.tickets}>Tickets at the door - $15</p>
+          <p className={styles.cityState}>Keene, NH</p>
+          <p className={styles.address}>81 Roxbury St</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/Y5DxbAzFnBPu28dn8" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
