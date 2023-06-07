@@ -19,9 +19,21 @@
     padding-top: 56.25%;
 }
 
+.bannerHeader {
+    width: 100%;
+    margin: 0;
+}
+
+.bannerContainer {
+    position: relative;
+    height: 20vh;
+    margin-bottom: 1rem;
+}   
+
 .centerFlex {
     flex: 1;
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,4 +42,11 @@
 
 .centerFlex > * {
     flex: 0;
+}
+
+
+@media screen and (min-width: 800px) {
+    .bannerContainer {
+        height: 40vh;
+    }   
 }
