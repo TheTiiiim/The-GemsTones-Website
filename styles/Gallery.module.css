@@ -5,4 +5,39 @@
 
 .streamingServices a {
     margin: 0 .25rem;
-  }
+}
+
+.featured {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.featuredContainer1 {
+    position: relative;
+    width: 100%;
+    max-width: 60vh;
+}
+
+.featuredContainer2 {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.centerFlex {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.centerFlex > * {
+    flex: 0;
+}
