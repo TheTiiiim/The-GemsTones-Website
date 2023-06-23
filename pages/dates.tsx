@@ -21,7 +21,7 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Amesbury, MA</p>
           <p className={styles.address}>77 Elm St</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/HJVhzN2AftwmzAkv9" rel="noreferrer">Directions</a></div>
-        </li> */}
+        </li> 
         
         <li>
           <div className={styles.dateTime}><h2>June 17, 2023</h2>&#32;<span className={styles.time}>(2:00pm - 5:00pm)</span></div>
@@ -30,7 +30,7 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Kensington, NH</p>
           <p className={styles.address}>267 South Rd</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/Zj8forMucSkAHgoM6" rel="noreferrer">Directions</a></div>
-        </li>
+        </li> */}
         
         <li>
           <div className={styles.dateTime}><h2>June 24, 2023</h2>&#32;<span className={styles.time}>(3:00pm - 6:00pm)</span></div>
