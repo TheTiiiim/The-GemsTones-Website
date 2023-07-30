@@ -71,7 +71,7 @@ const Dates: NextPage = () => {
         <li>
           <div className={styles.dateTime}><h2>August 26, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 9:00pm)</span></div>
           <p className={styles.venue}>Mill 77 Brewing</p>
-          <p className={styles.tickets}>Tickets at the door - $20</p>
+          <p className={styles.tickets}>Tickets at the door - $10</p>
           <p className={styles.cityState}>Amesbury, MA</p>
           <p className={styles.address}>77 Elm St</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/HJVhzN2AftwmzAkv9" rel="noreferrer">Directions</a></div>
