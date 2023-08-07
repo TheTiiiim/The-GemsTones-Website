@@ -48,7 +48,7 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Dover, NH</p>
           <p className={styles.address}>282 Durham Rd</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/BcBUASvHGX7iaZ3N8" rel="noreferrer">Directions</a></div>
-        </li> */}
+        </li>
         
         <li>
           <div className={styles.dateTime}><h2>July 22, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 9:00pm)</span></div>
@@ -57,7 +57,7 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Manchester, NH</p>
           <p className={styles.address}>290 Granite St</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/5QPx9PPgQpgP69s18" rel="noreferrer">Directions</a></div>
-        </li>
+        </li> */}
         
         <li>
           <div className={styles.dateTime}><h2>August 17, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 8:00pm)</span></div>
@@ -69,12 +69,30 @@ const Dates: NextPage = () => {
         </li>
         
         <li>
+          <div className={styles.dateTime}><h2>August 25, 2023</h2>&#32;<span className={styles.time}>(5:00pm - 7:00pm)</span></div>
+          <p className={styles.venue}>Henniker Brewing Company</p>
+          <p className={styles.tickets}>Free Admission</p>
+          <p className={styles.cityState}>Henniker, NH</p>
+          <p className={styles.address}>129 Centervale Rd</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/QBedfYWv4JPZpFad8" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
           <div className={styles.dateTime}><h2>August 26, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 9:00pm)</span></div>
           <p className={styles.venue}>Mill 77 Brewing</p>
           <p className={styles.tickets}>Tickets at the door - $10</p>
           <p className={styles.cityState}>Amesbury, MA</p>
           <p className={styles.address}>77 Elm St</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/HJVhzN2AftwmzAkv9" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
+          <div className={styles.dateTime}><h2>August 27, 2023</h2>&#32;<span className={styles.time}>(10:00am - 1:00pm)</span></div>
+          <p className={styles.venue}>Hedgehog General Store</p>
+          <p className={styles.tickets}>Free Admission</p>
+          <p className={styles.cityState}>Amesbury, MA</p>
+          <p className={styles.address}>6 Morrill St</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/yCetk5EdrMHTVbuw5" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
