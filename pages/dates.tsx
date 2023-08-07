@@ -48,7 +48,7 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Dover, NH</p>
           <p className={styles.address}>282 Durham Rd</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/BcBUASvHGX7iaZ3N8" rel="noreferrer">Directions</a></div>
-        </li> */}
+        </li>
         
         <li>
           <div className={styles.dateTime}><h2>July 22, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 9:00pm)</span></div>
@@ -57,7 +57,7 @@ const Dates: NextPage = () => {
           <p className={styles.cityState}>Manchester, NH</p>
           <p className={styles.address}>290 Granite St</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/5QPx9PPgQpgP69s18" rel="noreferrer">Directions</a></div>
-        </li>
+        </li> */}
         
         <li>
           <div className={styles.dateTime}><h2>August 17, 2023</h2>&#32;<span className={styles.time}>(6:00pm - 8:00pm)</span></div>
