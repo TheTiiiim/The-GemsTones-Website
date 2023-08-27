@@ -87,21 +87,21 @@ const Dates: NextPage = () => {
         </li> */}
         
         <li>
-          <div className={styles.dateTime}><h2>August 27, 2023</h2>&#32;<span className={styles.time}>(10:00am - 1:00pm)</span></div>
-          <p className={styles.venue}>Hedgehog General Store</p>
-          <p className={styles.tickets}>Free Admission</p>
-          <p className={styles.cityState}>Amesbury, MA</p>
-          <p className={styles.address}>6 Morrill St</p>
-          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/yCetk5EdrMHTVbuw5" rel="noreferrer">Directions</a></div>
-        </li>
-        
-        <li>
           <div className={styles.dateTime}><h2>September 4, 2023</h2>&#32;<span className={styles.time}>(7:00pm - 9:30pm)</span></div>
           <p className={styles.venue}>Sea Shell Stage</p>
           <p className={styles.tickets}>Free entry</p>
           <p className={styles.cityState}>Hampton, NH</p>
           <p className={styles.address}>180 Ocean Blvd</p>
           <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/yrrgyK6EJQ1YY2Tc8" rel="noreferrer">Directions</a></div>
+        </li>
+        
+        <li>
+          <div className={styles.dateTime}><h2>September 8, 2023</h2>&#32;<span className={styles.time}>(6:00pm - :00pm)</span></div>
+          <p className={styles.venue}>Hedgehog General Store</p>
+          <p className={styles.tickets}>Free Admission</p>
+          <p className={styles.cityState}>Amesbury, MA</p>
+          <p className={styles.address}>6 Morrill St</p>
+          <div className={styles.directionsButton}><a target="_blank" href="https://goo.gl/maps/yCetk5EdrMHTVbuw5" rel="noreferrer">Directions</a></div>
         </li>
         
         <li>
